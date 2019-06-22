@@ -40,6 +40,7 @@ class PostContainer extends Component {
   
   addComment = (event) => {
     event.preventDefault();
+
     
     if (!!this.state.newComment.text) {
       this.setState({
